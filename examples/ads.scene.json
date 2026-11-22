@@ -1,0 +1,264 @@
+{
+  "$schema": "../spec/scene.schema.json",
+  "meta": {
+    "name": "AdsFlashSale",
+    "preset": "ads",
+    "credit": "rajxzdev",
+    "license": "Apache-2.0",
+    "notes": "Struktur iklan 15s vertikal: hook angka -> benefit -> CTA. Ritme 3 beat, tiap beat <= 5s."
+  },
+  "composition": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationInFrames": 450,
+    "background": "#0B0B10"
+  },
+  "theme": {
+    "accent": "#7C5CFF",
+    "text": "#FFFFFF",
+    "muted": "#9A9AAC",
+    "font": "Inter, system-ui, -apple-system, sans-serif",
+    "radius": 28
+  },
+  "layers": [
+    {
+      "id": "bg_base",
+      "type": "shape",
+      "shape": "rect",
+      "w": 1080,
+      "h": 1920,
+      "fill": "#0B0B10",
+      "from": 0,
+      "durationInFrames": 450,
+      "track": 0,
+      "in": {
+        "preset": "fade",
+        "duration": 10
+      }
+    },
+    {
+      "id": "glow",
+      "type": "shape",
+      "shape": "circle",
+      "w": 900,
+      "h": 900,
+      "fill": "#7C5CFF",
+      "blur": 140,
+      "opacity": 0.5,
+      "y": -300,
+      "from": 0,
+      "durationInFrames": 450,
+      "track": 1,
+      "in": {
+        "preset": "scaleIn",
+        "duration": 26,
+        "easing": "easeOutQuint"
+      }
+    },
+    {
+      "id": "eyebrow",
+      "type": "text",
+      "text": "BARU · EDISI 2026",
+      "fontSize": 34,
+      "fontWeight": 600,
+      "letterSpacing": 8,
+      "color": "#9A9AAC",
+      "y": -470,
+      "from": 10,
+      "durationInFrames": 180,
+      "track": 4,
+      "in": {
+        "preset": "fade",
+        "duration": 16
+      },
+      "out": {
+        "preset": "fade",
+        "duration": 12
+      }
+    },
+    {
+      "id": "headline",
+      "type": "text",
+      "text": "GAK PERLU\nMAHAL",
+      "fontSize": 138,
+      "fontWeight": 900,
+      "lineHeight": 0.98,
+      "letterSpacing": -3,
+      "uppercase": true,
+      "maxWidth": 900,
+      "y": -230,
+      "from": 20,
+      "durationInFrames": 280,
+      "track": 5,
+      "highlight": {
+        "word": "MAHAL",
+        "color": "#7C5CFF"
+      },
+      "stagger": {
+        "mode": "word",
+        "intervalFrames": 3,
+        "preset": {
+          "preset": "slideUp",
+          "duration": 18,
+          "distance": 56,
+          "easing": "easeOutQuint"
+        }
+      },
+      "out": {
+        "preset": "maskDown",
+        "duration": 14
+      }
+    },
+    {
+      "id": "sub",
+      "type": "text",
+      "text": "Kualitas premium, harga masuk akal.",
+      "fontSize": 44,
+      "fontWeight": 500,
+      "color": "#9A9AAC",
+      "y": -20,
+      "from": 62,
+      "durationInFrames": 250,
+      "track": 5,
+      "in": {
+        "preset": "slideUp",
+        "duration": 18,
+        "distance": 30,
+        "delay": 0
+      },
+      "out": {
+        "preset": "fade",
+        "duration": 12
+      }
+    },
+    {
+      "id": "discount",
+      "type": "counter",
+      "from_value": 0,
+      "to_value": 70,
+      "suffix": "%",
+      "fontSize": 250,
+      "fontWeight": 900,
+      "color": "#FFFFFF",
+      "y": 250,
+      "from": 96,
+      "durationInFrames": 238,
+      "track": 6,
+      "grow": {
+        "start": 8,
+        "dur": 40,
+        "ease": "easeOutExpo"
+      },
+      "in": {
+        "preset": "popIn",
+        "duration": 18,
+        "easing": "easeOutBack"
+      },
+      "out": {
+        "preset": "scaleOut",
+        "duration": 14
+      }
+    },
+    {
+      "id": "discount_label",
+      "type": "text",
+      "text": "DISKON HARI INI",
+      "fontSize": 28,
+      "fontWeight": 700,
+      "letterSpacing": 6,
+      "color": "#7C5CFF",
+      "y": 430,
+      "from": 112,
+      "durationInFrames": 222,
+      "track": 6,
+      "in": {
+        "preset": "fade",
+        "duration": 16,
+        "delay": 6
+      },
+      "out": {
+        "preset": "fade",
+        "duration": 12
+      }
+    },
+    {
+      "id": "cta_pill",
+      "type": "shape",
+      "shape": "rect",
+      "w": 600,
+      "h": 116,
+      "radius": 58,
+      "fill": "#7C5CFF",
+      "y": 620,
+      "from": 190,
+      "durationInFrames": 238,
+      "track": 7,
+      "in": {
+        "preset": "popIn",
+        "duration": 20,
+        "easing": "easeOutBack"
+      },
+      "animate": [
+        {
+          "property": "scale",
+          "from": 1,
+          "to": 1.04,
+          "start": 96,
+          "duration": 14,
+          "easing": "easeInOutCubic"
+        },
+        {
+          "property": "scale",
+          "from": 1.04,
+          "to": 1,
+          "start": 110,
+          "duration": 16,
+          "easing": "easeInOutCubic"
+        }
+      ],
+      "out": {
+        "preset": "fade",
+        "duration": 12
+      }
+    },
+    {
+      "id": "cta_text",
+      "type": "text",
+      "text": "CHECKOUT SEKARANG",
+      "fontSize": 36,
+      "fontWeight": 800,
+      "letterSpacing": 2,
+      "color": "#0B0714",
+      "y": 620,
+      "from": 202,
+      "durationInFrames": 226,
+      "track": 8,
+      "in": {
+        "preset": "fade",
+        "duration": 14,
+        "delay": 6
+      },
+      "out": {
+        "preset": "fade",
+        "duration": 12
+      }
+    },
+    {
+      "id": "end_fade",
+      "type": "shape",
+      "shape": "rect",
+      "w": 1080,
+      "h": 1920,
+      "fill": "#0B0B10",
+      "from": 428,
+      "durationInFrames": 22,
+      "track": 9,
+      "in": {
+        "preset": "fade",
+        "duration": 20,
+        "easing": "easeInOutCubic"
+      }
+    }
+  ]
+}

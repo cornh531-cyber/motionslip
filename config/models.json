@@ -1,0 +1,101 @@
+{
+  "description": "Matriks kompatibilitas model. Skill ini model-agnostic: yang berubah hanya cara memuat konteks.",
+  "credit": "rajxzdev",
+  "license": "Apache-2.0",
+  "contextBudget": {
+    "tiny": "<= 8k token  → llms.txt",
+    "small": "8k–32k     → llms.txt + spec/SPEC.md + presets/ads.json",
+    "medium": "32k–128k  → SKILL.md + SPEC.md + smooth-motion.md + 1 contoh",
+    "large": ">= 128k    → seluruh repo boleh dimuat"
+  },
+  "models": [
+    {
+      "family": "Claude (Anthropic)",
+      "models": ["Opus", "Sonnet", "Haiku"],
+      "entry": "SKILL.md (Agent Skills: ~/.claude/skills/motion-skill)",
+      "context": "large",
+      "notes": "Format SKILL.md + frontmatter YAML sudah sesuai konvensi Agent Skills. Bisa juga jadi subagent/plugin."
+    },
+    {
+      "family": "GPT / ChatGPT (OpenAI)",
+      "models": ["GPT-5.x", "o-series", "Codex"],
+      "entry": "AGENTS.md",
+      "context": "large",
+      "notes": "Codex membaca AGENTS.md di root repo. Untuk web: tempel AGENTS.md + SPEC.md sebagai custom instruction."
+    },
+    {
+      "family": "Gemini (Google)",
+      "models": ["Gemini 2.x/3.x Pro & Flash", "Gemini CLI"],
+      "entry": "GEMINI.md",
+      "context": "large",
+      "notes": "Gemini CLI membaca GEMINI.md. Window besar → boleh memuat semua examples sekaligus."
+    },
+    {
+      "family": "Qwen",
+      "models": ["Qwen3 Coder", "Qwen-Code CLI", "Qwen Chat"],
+      "entry": "AGENTS.md",
+      "context": "medium",
+      "notes": "Qwen Code CLI membaca AGENTS.md. Bagus untuk menulis scene JSON; jalankan validator setelahnya."
+    },
+    {
+      "family": "DeepSeek",
+      "models": ["DeepSeek V3.x", "DeepSeek R1"],
+      "entry": "AGENTS.md / llms.txt",
+      "context": "medium",
+      "notes": "Pakai llms.txt bila konteks terbatas. Cek angka timing di validator, model reasoning kadang over-engineer."
+    },
+    {
+      "family": "Kimi (Moonshot)",
+      "models": ["Kimi K2", "Kimi CLI"],
+      "entry": "AGENTS.md",
+      "context": "large",
+      "notes": "Konteks panjang; bisa memuat 3 taxonomy + semua contoh dalam sekali jalan."
+    },
+    {
+      "family": "GLM (Zhipu)",
+      "models": ["GLM-4.x", "GLM Coder"],
+      "entry": "AGENTS.md / llms.txt",
+      "context": "medium",
+      "notes": "Sering kuat untuk TSX; cocok untuk target remotion."
+    },
+    {
+      "family": "Grok (xAI)",
+      "models": ["Grok 4.x"],
+      "entry": "AGENTS.md / llms.txt",
+      "context": "large",
+      "notes": "Gunakan SKILL.md + SPEC.md; tambahkan contoh scene sebagai few-shot."
+    },
+    {
+      "family": "MiMo (Xiaomi)",
+      "models": ["MiMo-VL", "MiMo-7B"],
+      "entry": "llms.txt",
+      "context": "small",
+      "notes": "Model kecil: minta hanya menulis scene JSON per bagian (1 beat per request), lalu gabungkan."
+    },
+    {
+      "family": "Hunyuan (Tencent)",
+      "models": ["Hunyuan-Large", "Hunyuan TurboS"],
+      "entry": "llms.txt + SPEC.md",
+      "context": "medium",
+      "notes": "Sertakan spec schema; jangan minta model mengarang field baru."
+    },
+    {
+      "family": "Muse / model riset lain",
+      "models": ["—"],
+      "entry": "llms.txt",
+      "context": "small",
+      "notes": "Format netral: JSON + markdown. Tidak ada tool call wajib."
+    },
+    {
+      "family": "Local AI",
+      "models": ["Llama 3.x/4", "Mistral", "Phi", "Gemma via Ollama/LM Studio/llama.cpp"],
+      "entry": "llms.txt (+ spec/SPEC.md)",
+      "context": "small",
+      "notes": "Pola paling andal: 'salin examples/ads.scene.json, ubah hanya teks & warna'. Validator jadi jaring pengaman."
+    }
+  ],
+  "validationLoop": {
+    "why": "Model apa pun bisa salah timing/easing. Validator deterministik menutup celah itu.",
+    "command": "python3 cli/motion.py validate <file>.scene.json"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "motion-skill",
+  "displayName": "MOTION SKILL",
+  "version": "1.0.0",
+  "description": "Video motion graphics as code: satu scene JSON -> Remotion, HyperFrames/OpenMotion, Motion Canvas, HTML preview. Smooth-by-construction, deterministik, model-agnostic.",
+  "author": "rajxzdev",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/rajxzdev/motion-skill",
+  "keywords": ["motion-graphics", "video-as-code", "remotion", "hyperframes", "openmotion", "motion-canvas", "kinetic-typography", "agent-skill", "tiktok-ads"],
+  "entrypoints": {
+    "skill": "SKILL.md",
+    "agents": "AGENTS.md",
+    "gemini": "GEMINI.md",
+    "llms": "llms.txt",
+    "spec": "spec/SPEC.md",
+    "schema": "spec/scene.schema.json",
+    "cli": "cli/motion.py"
+  },
+  "specVersion": "1.0.0",
+  "runtime": {
+    "python": ">=3.9",
+    "dependencies": [],
+    "node": "optional — hanya untuk render (Remotion 18+, HyperFrames 22+)"
+  },
+  "renderers": [
+    {"id": "preview", "needs": "browser", "output": "preview.html"},
+    {"id": "hyperframes", "needs": "node 22+, ffmpeg", "output": "index.html"},
+    {"id": "openmotion", "needs": "OpenMotion app", "output": "index.html"},
+    {"id": "remotion", "needs": "node 18+", "output": "TSX project"},
+    {"id": "motion-canvas", "needs": "node 18+", "output": "scene .ts"}
+  ],
+  "presets": ["ads", "education", "3d"],
+  "references": {"count": 60, "catalog": "references/catalog.json"},
+  "models": "config/models.json",
+  "commands": {
+    "validate": "python3 cli/motion.py validate <scene>",
+    "build": "python3 cli/motion.py build <scene> --target all --out out/<Name>",
+    "new": "python3 cli/motion.py new <ads|education|3d> --name <Name>",
+    "list": "python3 cli/motion.py list",
+    "doctor": "python3 cli/motion.py doctor"
+  }
+}

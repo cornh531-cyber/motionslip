@@ -1,0 +1,24 @@
+{
+  "description": "preset 3D/2.5D: orb + ring berlawanan arah, glow besar, rotasi linear",
+  "credit": "rajxzdev",
+  "license": "Apache-2.0",
+  "preset": "3d",
+  "composition": { "width": 1920, "height": 1080, "fps": 30, "durationInFrames": 300, "background": "#05060B" },
+  "theme": { "accent": "#FF5C7A", "text": "#FFFFFF", "muted": "#8E93A6", "font": "Inter, system-ui, sans-serif", "radius": 999 },
+  "motion": {
+    "haloBlur": [120, 200],
+    "haloOpacity": [0.35, 0.55],
+    "ringStroke": [1, 2],
+    "rotationFramesPerTurn": [240, 360],
+    "pushIn": { "from": 1, "to": 1.04, "frames": 120 },
+    "coreIn": { "preset": "popIn", "duration": 26, "easing": "easeOutBack" }
+  },
+  "limits": {
+    "rotateX": false,
+    "rotateY": false,
+    "mesh": false,
+    "workaround": "render 3D di Blender/Spline → footage layer, atau Three.js adapter (docs/3D-ADAPTER.md)"
+  },
+  "referenceRecipes": ["orbital-showcase", "product-reveal", "kinetic-3d-type", "loop-sting"],
+  "example": "examples/3d.scene.json"
+}

@@ -1,0 +1,67 @@
+# MOTION SKILL — ringkasan untuk LLM (1 file)
+
+> Credit: rajxzdev · License: Apache-2.0 · Version 1.0.0
+> Repo membuat video motion graphics sebagai kode: satu scene JSON -> Remotion / HyperFrames /
+> OpenMotion / Motion Canvas / HTML preview. Semua nilai adalah fungsi murni dari frame.
+
+## Apa yang kamu kerjakan
+Brief ("iklan 12 detik 1080x1920 untuk kopi, CTA 'Order sekarang'") -> file `*.scene.json`
+-> `python3 cli/motion.py validate` -> `python3 cli/motion.py build --target all`.
+
+## Format scene (minimum valid)
+{
+  "meta": {"name":"NamaPascalCase","preset":"ads","credit":"rajxzdev","license":"Apache-2.0"},
+  "composition": {"width":1080,"height":1920,"fps":30,"durationInFrames":450,"background":"#0B0B10"},
+  "theme": {"accent":"#7C5CFF","text":"#FFFFFF","muted":"#9A9AAC","font":"Inter, system-ui, sans-serif"},
+  "layers": [
+    {"id":"headline","type":"text","text":"GAK PERLU\nMAHAL","fontSize":138,
+     "from":20,"durationInFrames":250,"y":-230,
+     "in":{"preset":"slideUp","duration":18,"distance":56,"easing":"easeOutQuint"},
+     "out":{"preset":"maskDown","duration":14}}
+  ]
+}
+
+Aturan angka:
+- waktu dalam FRAME (30fps default); x/y = offset piksel dari TENGAH canvas.
+- layer types: text | shape | counter | chart | image
+- preset masuk: fade, slideUp, slideDown, slideLeft, slideRight, scaleIn, popIn, blurIn,
+  maskUp, wipeRight, typeOn, popStagger
+- preset keluar: fade, slideDown, slideUpOut, scaleOut, blurOut, maskDown
+- properti animate: opacity x y scale scaleX scaleY rotate blur letterSpacing
+  clipTop clipRight clipBottom clipLeft
+- easing (21): linear easeInQuad easeOutQuad easeInOutQuad easeInCubic easeOutCubic
+  easeInOutCubic easeInQuart easeOutQuart easeInOutQuart easeOutQuint easeInOutQuint
+  easeOutExpo easeInOutExpo easeOutCirc easeOutBack easeInOutBack easeOutElastic
+  easeOutBounce springSoft springSnappy
+
+## Angka smooth (WAJIB)
+- animasi >= 4 frame (target 6+); fade teks 10-16f; elemen besar 18-26f
+- slide distance 32-120px; stagger kata 2-4f; stagger poin 6-10f
+- overlap transisi 8-16f; tidak boleh ada frame kosong
+- linear HANYA untuk rotasi kontinu / progress
+- 1 warna aksen per scene; elemen dominan 1 per beat
+- resep default: opacity 0->1 @12f easeOutCubic + y 56->0 @18f easeOutQuint
+
+## Preset gaya
+- ads: 1080x1920, 9-18s, 3 beat (hook 0-135f, benefit 135-330f, CTA 330-450f @15s), headline 900
+- education: 1080x1920, 15-40s, maks 3 poin, interval poin ~40f, 40% durasi diam
+- 3d: 1920x1080, 6-12s, orb+ring 2.5D, glow blur 120-200px opacity .35-.55, rotasi linear
+
+## Target output
+- preview: out/preview.html (dependency-free, scrub timeline)
+- hyperframes: index.html (data-composition-id, clip+data-start/duration/track-index dalam detik,
+  timeline GSAP paused di window.__timelines)
+- openmotion: pakai output hyperframes
+- remotion: project TSX (Root.tsx + scenes/Nama.tsx + lib/easing.ts + lib/motion.ts)
+- motion-canvas: scene TS generator
+
+## Larangan
+- jangan klaim menonton video referensi (hanya URL yang sudah di-resolve; isi belum di-ingest)
+- jangan pakai aset/audio/logo creator referensi
+- jangan Math.random / Date.now / setTimeout di komposisi (harus deterministik & seekable)
+- jangan janjikan mesh 3D, rotateX/rotateY, motion blur native
+
+## File penting
+SKILL.md (instruksi penuh) · spec/SPEC.md (spesifikasi) · presets/*.json (token & timing)
+· references/smooth-motion.md (teori) · references/taxonomy-*.md (resep per kategori)
+· examples/*.scene.json (3 contoh siap pakai) · cli/motion.py (validator + compiler)

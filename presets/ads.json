@@ -1,0 +1,24 @@
+{
+  "description": "preset iklan: dark + 1 aksen, headline 900, CTA pill, 3-beat 15s",
+  "credit": "rajxzdev",
+  "license": "Apache-2.0",
+  "preset": "ads",
+  "composition": { "width": 1080, "height": 1920, "fps": 30, "durationInFrames": 450, "background": "#0B0B10" },
+  "theme": { "accent": "#7C5CFF", "text": "#FFFFFF", "muted": "#9A9AAC", "font": "Inter, system-ui, sans-serif", "radius": 28 },
+  "timing": {
+    "hook": [0, 135],
+    "benefit": [135, 330],
+    "cta": [330, 450],
+    "endFade": [428, 450]
+  },
+  "motion": {
+    "headlineIn": { "preset": "slideUp", "duration": 18, "distance": 56, "easing": "easeOutQuint" },
+    "subIn": { "preset": "slideUp", "duration": 16, "distance": 30 },
+    "popIn": { "preset": "popIn", "duration": 18, "easing": "easeOutBack" },
+    "counterGrow": { "start": 8, "dur": 40, "ease": "easeOutExpo" },
+    "ctaPulse": [1, 1.04, 1],
+    "staggerWords": 3
+  },
+  "referenceRecipes": ["hook-stat-cta", "problem-agitate-solution", "price-drop", "kinetic-claim", "before-after"],
+  "example": "examples/ads.scene.json"
+}

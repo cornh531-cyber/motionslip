@@ -1,0 +1,258 @@
+{
+  "$schema": "../spec/scene.schema.json",
+  "meta": {
+    "name": "ThreeDShowreel",
+    "preset": "3d",
+    "credit": "rajxzdev",
+    "license": "Apache-2.0",
+    "notes": "Opener showreel 10s landscape. Rotasi kontinu = satu-satunya tempat 'linear' dibenarkan. Untuk geometri 3D nyata, lihat renderers/lottie + docs/3D-ADAPTER.md."
+  },
+  "composition": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationInFrames": 300,
+    "background": "#05060B"
+  },
+  "theme": {
+    "accent": "#FF5C7A",
+    "text": "#FFFFFF",
+    "muted": "#8E93A6",
+    "font": "Inter, system-ui, -apple-system, sans-serif",
+    "radius": 999
+  },
+  "layers": [
+    {
+      "id": "bg_base",
+      "type": "shape",
+      "shape": "rect",
+      "w": 1920,
+      "h": 1080,
+      "fill": "#05060B",
+      "from": 0,
+      "durationInFrames": 300,
+      "track": 0,
+      "in": {
+        "preset": "fade",
+        "duration": 10
+      }
+    },
+    {
+      "id": "halo",
+      "type": "shape",
+      "shape": "circle",
+      "w": 760,
+      "h": 760,
+      "fill": "#FF5C7A",
+      "blur": 180,
+      "opacity": 0.45,
+      "from": 0,
+      "durationInFrames": 300,
+      "track": 1,
+      "in": {
+        "preset": "scaleIn",
+        "duration": 40,
+        "easing": "easeOutQuint"
+      },
+      "x": 360
+    },
+    {
+      "id": "ring_outer",
+      "type": "shape",
+      "shape": "circle",
+      "w": 860,
+      "h": 860,
+      "fill": "transparent",
+      "stroke": "#FF5C7A",
+      "strokeWidth": 2,
+      "opacity": 0.55,
+      "from": 6,
+      "durationInFrames": 294,
+      "track": 2,
+      "in": {
+        "preset": "fade",
+        "duration": 24
+      },
+      "animate": [
+        {
+          "property": "rotate",
+          "from": 0,
+          "to": 360,
+          "start": 0,
+          "duration": 294,
+          "easing": "linear"
+        },
+        {
+          "property": "scale",
+          "from": 0.92,
+          "to": 1,
+          "start": 0,
+          "duration": 40,
+          "easing": "easeOutQuint"
+        }
+      ],
+      "x": 360
+    },
+    {
+      "id": "ring_inner",
+      "type": "shape",
+      "shape": "circle",
+      "w": 620,
+      "h": 620,
+      "fill": "transparent",
+      "stroke": "#FFFFFF",
+      "strokeWidth": 1,
+      "opacity": 0.28,
+      "from": 14,
+      "durationInFrames": 286,
+      "track": 2,
+      "in": {
+        "preset": "fade",
+        "duration": 24
+      },
+      "animate": [
+        {
+          "property": "rotate",
+          "from": 360,
+          "to": 0,
+          "start": 0,
+          "duration": 286,
+          "easing": "linear"
+        }
+      ],
+      "x": 360
+    },
+    {
+      "id": "core",
+      "type": "shape",
+      "shape": "rect",
+      "w": 260,
+      "h": 260,
+      "radius": 44,
+      "fill": "#FF5C7A",
+      "from": 20,
+      "durationInFrames": 280,
+      "track": 3,
+      "in": {
+        "preset": "popIn",
+        "duration": 26,
+        "easing": "easeOutBack"
+      },
+      "animate": [
+        {
+          "property": "rotate",
+          "from": 0,
+          "to": 90,
+          "start": 0,
+          "duration": 60,
+          "easing": "easeOutBack"
+        },
+        {
+          "property": "scale",
+          "from": 1,
+          "to": 1.06,
+          "start": 120,
+          "duration": 30,
+          "easing": "easeInOutCubic"
+        },
+        {
+          "property": "scale",
+          "from": 1.06,
+          "to": 1,
+          "start": 150,
+          "duration": 30,
+          "easing": "easeInOutCubic"
+        }
+      ],
+      "x": 360
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "text": "MOTION\nIN 3D",
+      "fontSize": 132,
+      "fontWeight": 900,
+      "lineHeight": 0.95,
+      "letterSpacing": -4,
+      "maxWidth": 700,
+      "x": -470,
+      "y": 250,
+      "uppercase": true,
+      "from": 36,
+      "durationInFrames": 264,
+      "track": 4,
+      "highlight": {
+        "word": "3D",
+        "color": "#FF5C7A"
+      },
+      "stagger": {
+        "mode": "word",
+        "intervalFrames": 4,
+        "preset": {
+          "preset": "slideUp",
+          "duration": 22,
+          "distance": 60,
+          "easing": "easeOutQuint"
+        }
+      }
+    },
+    {
+      "id": "price",
+      "type": "counter",
+      "prefix": "RP ",
+      "from_value": 0,
+      "to_value": 1299,
+      "suffix": "K",
+      "fontSize": 86,
+      "fontWeight": 800,
+      "x": -470,
+      "y": 430,
+      "from": 80,
+      "durationInFrames": 220,
+      "track": 5,
+      "grow": {
+        "start": 6,
+        "dur": 34
+      },
+      "in": {
+        "preset": "slideUp",
+        "duration": 20,
+        "distance": 40
+      }
+    },
+    {
+      "id": "handle",
+      "type": "text",
+      "text": "@rajxzdev",
+      "fontSize": 34,
+      "fontWeight": 600,
+      "letterSpacing": 4,
+      "color": "#8E93A6",
+      "x": -470,
+      "y": -450,
+      "from": 60,
+      "durationInFrames": 240,
+      "track": 6,
+      "in": {
+        "preset": "fade",
+        "duration": 20,
+        "delay": 20
+      }
+    },
+    {
+      "id": "end_fade",
+      "type": "shape",
+      "shape": "rect",
+      "w": 1920,
+      "h": 1080,
+      "fill": "#05060B",
+      "from": 286,
+      "durationInFrames": 14,
+      "track": 9,
+      "in": {
+        "preset": "fade",
+        "duration": 14
+      }
+    }
+  ]
+}

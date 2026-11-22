@@ -1,0 +1,30 @@
+# build output
+out/
+demo-build/
+*.mp4
+*.gif
+*.webm
+*.png
+!assets/*.png
+!demo/still/*.png
+
+# node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# editor / os
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# remotion cache
+.remotion/

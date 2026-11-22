@@ -1,0 +1,25 @@
+{
+  "description": "preset edukasi: dark navy + mint, poin maks 3, 40% durasi diam",
+  "credit": "rajxzdev",
+  "license": "Apache-2.0",
+  "preset": "education",
+  "composition": { "width": 1080, "height": 1920, "fps": 30, "durationInFrames": 540, "background": "#080A12" },
+  "theme": { "accent": "#2EE6A8", "text": "#F5F7FA", "muted": "#8892A6", "font": "Inter, system-ui, sans-serif", "radius": 24 },
+  "timing": {
+    "hook": [0, 100],
+    "points": [100, 470],
+    "data": [260, 500],
+    "closing": [476, 540],
+    "pointIntervalFrames": 40
+  },
+  "motion": {
+    "questionIn": { "preset": "slideUp", "duration": 20, "distance": 48, "easing": "easeOutQuint" },
+    "pointIn": { "preset": "slideRight", "duration": 18, "distance": 56 },
+    "chartGrow": { "start": 6, "durationFrames": 30, "intervalFrames": 5 },
+    "closingIn": { "preset": "maskUp", "duration": 20 }
+  },
+  "readingTimeMsPerChar": 35,
+  "maxPoints": 3,
+  "referenceRecipes": ["explainer-bullets", "timeline-history", "data-reveal", "comparison", "step-by-step"],
+  "example": "examples/education.scene.json"
+}

@@ -1,0 +1,193 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/rajxzdev/motion-skill/spec/scene.schema.json",
+  "title": "MOTION SKILL Scene",
+  "description": "Format perantara motion graphics as code. Di-compile ke Remotion, HyperFrames/OpenMotion, Motion Canvas, dan HTML preview.",
+  "type": "object",
+  "required": ["meta", "composition", "layers"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "meta": {
+      "type": "object",
+      "required": ["name"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string", "pattern": "^[A-Za-z][A-Za-z0-9_]*$" },
+        "preset": { "type": "string", "enum": ["ads", "education", "3d", "custom"], "default": "ads" },
+        "credit": { "type": "string", "default": "rajxzdev" },
+        "license": { "type": "string", "default": "Apache-2.0" },
+        "notes": { "type": "string" }
+      }
+    },
+    "composition": {
+      "type": "object",
+      "required": ["width", "height", "fps", "durationInFrames"],
+      "additionalProperties": false,
+      "properties": {
+        "width": { "type": "integer", "minimum": 16, "maximum": 8192 },
+        "height": { "type": "integer", "minimum": 16, "maximum": 8192 },
+        "fps": { "type": "integer", "enum": [24, 25, 30, 50, 60] },
+        "durationInFrames": { "type": "integer", "minimum": 6, "maximum": 108000 },
+        "background": { "type": "string", "default": "#0B0B10" }
+      }
+    },
+    "theme": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "accent": { "type": "string" },
+        "text": { "type": "string" },
+        "muted": { "type": "string" },
+        "font": { "type": "string" },
+        "radius": { "type": "number" }
+      }
+    },
+    "layers": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/definitions/layer" }
+    }
+  },
+  "definitions": {
+    "easing": {
+      "type": "string",
+      "enum": [
+        "linear",
+        "easeInQuad", "easeOutQuad", "easeInOutQuad",
+        "easeInCubic", "easeOutCubic", "easeInOutCubic",
+        "easeInQuart", "easeOutQuart", "easeInOutQuart",
+        "easeOutQuint", "easeInOutQuint",
+        "easeOutExpo", "easeInOutExpo",
+        "easeOutCirc",
+        "easeOutBack", "easeInOutBack",
+        "easeOutElastic", "easeOutBounce",
+        "springSoft", "springSnappy"
+      ]
+    },
+    "keyframe": {
+      "type": "object",
+      "required": ["property", "from", "to", "duration"],
+      "additionalProperties": false,
+      "properties": {
+        "property": {
+          "type": "string",
+          "enum": ["opacity", "x", "y", "scale", "scaleX", "scaleY", "rotate", "blur", "letterSpacing", "clipTop", "clipRight", "clipBottom", "clipLeft"]
+        },
+        "from": { "type": "number" },
+        "to": { "type": "number" },
+        "start": { "type": "integer", "minimum": 0, "default": 0 },
+        "duration": { "type": "integer", "minimum": 1 },
+        "easing": { "$ref": "#/definitions/easing", "default": "easeOutCubic" }
+      }
+    },
+    "inPreset": {
+      "type": "object",
+      "required": ["preset"],
+      "additionalProperties": false,
+      "properties": {
+        "preset": {
+          "type": "string",
+          "enum": ["fade", "slideUp", "slideDown", "slideLeft", "slideRight", "scaleIn", "popIn", "blurIn", "maskUp", "wipeRight", "typeOn", "popStagger"]
+        },
+        "duration": { "type": "integer", "minimum": 1, "default": 14 },
+        "delay": { "type": "integer", "minimum": 0, "default": 0 },
+        "distance": { "type": "number", "default": 48 },
+        "easing": { "$ref": "#/definitions/easing" }
+      }
+    },
+    "outPreset": {
+      "type": "object",
+      "required": ["preset"],
+      "additionalProperties": false,
+      "properties": {
+        "preset": {
+          "type": "string",
+          "enum": ["fade", "slideDown", "slideUpOut", "scaleOut", "blurOut", "maskDown"]
+        },
+        "duration": { "type": "integer", "minimum": 1, "default": 10 },
+        "delay": { "type": "integer", "minimum": 0, "default": 0 },
+        "distance": { "type": "number", "default": 40 },
+        "easing": { "$ref": "#/definitions/easing" }
+      }
+    },
+    "base": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "pattern": "^[A-Za-z][A-Za-z0-9_-]*$" },
+        "type": { "enum": ["text", "shape", "counter", "image", "chart"] },
+        "from": { "type": "integer", "minimum": 0 },
+        "durationInFrames": { "type": "integer", "minimum": 1 },
+        "track": { "type": "integer", "minimum": 0 },
+        "x": { "type": "number" },
+        "y": { "type": "number" },
+        "w": { "type": "number" },
+        "h": { "type": "number" },
+        "rotate": { "type": "number" },
+        "opacity": { "type": "number", "minimum": 0, "maximum": 1 },
+        "blendMode": { "type": "string" },
+        "animate": { "type": "array", "items": { "$ref": "#/definitions/keyframe" } },
+        "in": { "$ref": "#/definitions/inPreset" },
+        "out": { "$ref": "#/definitions/outPreset" }
+      },
+      "required": ["id", "type", "from", "durationInFrames"]
+    },
+    "layer": {
+      "allOf": [{ "$ref": "#/definitions/base" }],
+      "required": ["id", "type", "from", "durationInFrames"],
+      "properties": {
+        "text": { "type": "string" },
+        "fontSize": { "type": "number" },
+        "fontWeight": { "type": ["number", "string"] },
+        "fontFamily": { "type": "string" },
+        "color": { "type": "string" },
+        "lineHeight": { "type": "number" },
+        "letterSpacing": { "type": "number" },
+        "align": { "enum": ["left", "center", "right"] },
+        "maxWidth": { "type": "number" },
+        "uppercase": { "type": "boolean" },
+        "italic": { "type": "boolean" },
+        "highlight": {
+          "type": "object",
+          "properties": {
+            "word": { "type": "string" },
+            "color": { "type": "string" }
+          },
+          "required": ["word"]
+        },
+        "stagger": {
+          "type": "object",
+          "properties": {
+            "mode": { "enum": ["word", "char"] },
+            "intervalFrames": { "type": "integer", "minimum": 1 },
+            "preset": { "$ref": "#/definitions/inPreset" }
+          }
+        },
+        "shape": { "enum": ["rect", "circle", "line", "triangle"] },
+        "fill": { "type": "string" },
+        "stroke": { "type": "string" },
+        "strokeWidth": { "type": "number" },
+        "radius": { "type": "number" },
+        "blur": { "type": "number" },
+        "shadow": { "type": "string" },
+        "from_value": { "type": "number" },
+        "to_value": { "type": "number" },
+        "prefix": { "type": "string" },
+        "suffix": { "type": "string" },
+        "decimals": { "type": "integer", "minimum": 0, "maximum": 4 },
+        "values": { "type": "array", "items": { "type": "number" } },
+        "labels": { "type": "array", "items": { "type": "string" } },
+        "grow": {
+          "type": "object",
+          "properties": {
+            "start": { "type": "integer" },
+            "durationFrames": { "type": "integer" },
+            "intervalFrames": { "type": "integer" }
+          }
+        },
+        "src": { "type": "string" },
+        "fit": { "enum": ["contain", "cover"] }
+      }
+    }
+  }
+}

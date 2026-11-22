@@ -1,0 +1,43 @@
+MOTION SKILL — motion graphics as code
+Copyright 2026 rajxzdev
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+--------------------------------------------------------------------------------
+ATTRIBUTION & THIRD PARTIES
+
+Author / maintainer : rajxzdev
+Primary license     : Apache-2.0 (seluruh isi repo ini: skill, CLI, spec, preset, docs)
+
+Konten pihak ketiga yang TIDAK termasuk lisensi di atas:
+
+1. 60 video referensi TikTok di references/catalog.json.
+   Skill ini hanya menyimpan URL publik + handle creator + video id.
+   Hak cipta video tetap milik creator masing-masing. Tidak ada aset (video, audio,
+   gambar, logo) yang didistribusikan ulang di dalam repo ini.
+
+2. Engine yang menjadi target render:
+   - Remotion            → Remotion License (source-available, berbayar untuk > 3 staf)
+   - HyperFrames (HeyGen)→ Apache-2.0
+   - OpenMotion          → MIT (engine render: HyperFrames)
+   - Motion Canvas       → MIT
+   - GSAP                → GreenSock license (gratis untuk mayoritas pemakaian; cek
+                           https://gsap.com/community/standard-license/)
+   Skill ini hanya menghasilkan kode yang memanggil engine tersebut; ia tidak
+   membundel engine mana pun.
+
+3. Font yang disebut di preset (Inter) tidak didistribusikan. Gunakan versi berlisensi
+   (Inter: SIL Open Font License 1.1).
+
+Jika kamu memakai skill ini untuk membuat video komersial, pastikan lisensi engine &
+aset di atas terpenuhi.

@@ -1,0 +1,22 @@
+{
+  "description": "transisi antar scene (8–16 frame overlap, jangan hitam dulu)",
+  "credit": "rajxzdev",
+  "license": "Apache-2.0",
+  "rules": {
+    "overlapFrames": [8, 16],
+    "neverCutToBlackUnlessIntentional": true,
+    "easing": "easeInOutCubic",
+    "matchDirection": "keluar dan masuk harus searah"
+  },
+  "transitions": {
+    "cut":            { "duration": 0,  "how": "ganti langsung — hanya untuk beat musik" },
+    "crossfade":      { "duration": 12, "how": "opacity A 1→0 sambil B 0→1; paling aman" },
+    "slideLeft":      { "duration": 16, "how": "A: x 0→-160 + fade; B: x +160→0" },
+    "slideUp":        { "duration": 16, "how": "A: y 0→-120 + fade; B: y +120→0" },
+    "maskWipe":       { "duration": 14, "how": "B reveal dengan clipTop 100→0, A tetap diam" },
+    "whipPan":        { "duration": 10, "how": "geser 200% + blur 18px (butuh motion blur)" },
+    "scaleThrough":   { "duration": 18, "how": "A: scale 1→1.15 + fade; B: scale 0.9→1" },
+    "flashThrough":   { "duration": 8,  "how": "frame putih 3f di tengah (efek 'kamera')" },
+    "matchCut":       { "duration": 0,  "how": "elemen yang sama di posisi sama; paling mahal rasanya" }
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "$schema": "../spec/scene.schema.json",
+  "meta": {
+    "name": "EduExplainer",
+    "preset": "education",
+    "credit": "rajxzdev",
+    "license": "Apache-2.0",
+    "notes": "Explainer 18s: pertanyaan -> 3 poin -> data chart -> penutup. 1 ide per 4-5 detik."
+  },
+  "composition": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationInFrames": 540,
+    "background": "#080A12"
+  },
+  "theme": {
+    "accent": "#2EE6A8",
+    "text": "#F5F7FA",
+    "muted": "#8892A6",
+    "font": "Inter, system-ui, -apple-system, sans-serif",
+    "radius": 24
+  },
+  "layers": [
+    {
+      "id": "bg_base",
+      "type": "shape",
+      "shape": "rect",
+      "w": 1080,
+      "h": 1920,
+      "fill": "#080A12",
+      "from": 0,
+      "durationInFrames": 540,
+      "track": 0,
+      "in": {
+        "preset": "fade",
+        "duration": 10
+      }
+    },
+    {
+      "id": "accent_bar",
+      "type": "shape",
+      "shape": "rect",
+      "w": 96,
+      "h": 8,
+      "radius": 4,
+      "fill": "#2EE6A8",
+      "x": -342,
+      "y": -644,
+      "from": 8,
+      "durationInFrames": 532,
+      "track": 1,
+      "in": {
+        "preset": "wipeRight",
+        "duration": 20,
+        "easing": "easeOutQuint"
+      }
+    },
+    {
+      "id": "kicker",
+      "type": "text",
+      "text": "EDUKASI INVESTASI",
+      "fontSize": 30,
+      "fontWeight": 700,
+      "letterSpacing": 7,
+      "color": "#2EE6A8",
+      "x": -40,
+      "y": -700,
+      "from": 12,
+      "durationInFrames": 528,
+      "track": 2,
+      "in": {
+        "preset": "slideRight",
+        "duration": 18,
+        "distance": 40
+      },
+      "align": "left",
+      "maxWidth": 700
+    },
+    {
+      "id": "question",
+      "type": "text",
+      "text": "KENAPA ASET\nBISA NAIK?",
+      "fontSize": 110,
+      "fontWeight": 900,
+      "lineHeight": 1.0,
+      "letterSpacing": -2,
+      "maxWidth": 900,
+      "uppercase": true,
+      "y": -470,
+      "from": 26,
+      "durationInFrames": 450,
+      "track": 3,
+      "stagger": {
+        "mode": "word",
+        "intervalFrames": 4,
+        "preset": {
+          "preset": "slideUp",
+          "duration": 20,
+          "distance": 48,
+          "easing": "easeOutQuint"
+        }
+      },
+      "out": {
+        "preset": "maskDown",
+        "duration": 18
+      }
+    },
+    {
+      "id": "point_1",
+      "type": "text",
+      "text": "1. Permintaan naik, pasokan tetap",
+      "fontSize": 42,
+      "fontWeight": 600,
+      "align": "left",
+      "maxWidth": 840,
+      "x": 0,
+      "y": -220,
+      "from": 100,
+      "durationInFrames": 400,
+      "track": 4,
+      "in": {
+        "preset": "slideRight",
+        "duration": 18,
+        "distance": 56
+      },
+      "out": {
+        "preset": "fade",
+        "duration": 16
+      }
+    },
+    {
+      "id": "point_2",
+      "type": "text",
+      "text": "2. Bunga & inflasi menggerus uang",
+      "fontSize": 42,
+      "fontWeight": 600,
+      "align": "left",
+      "maxWidth": 840,
+      "x": 0,
+      "y": -100,
+      "from": 140,
+      "durationInFrames": 360,
+      "track": 4,
+      "in": {
+        "preset": "slideRight",
+        "duration": 18,
+        "distance": 56
+      },
+      "out": {
+        "preset": "fade",
+        "duration": 16
+      }
+    },
+    {
+      "id": "point_3",
+      "type": "text",
+      "text": "3. Waktu > timing sempurna",
+      "fontSize": 42,
+      "fontWeight": 600,
+      "align": "left",
+      "maxWidth": 840,
+      "x": 0,
+      "y": 20,
+      "from": 180,
+      "durationInFrames": 320,
+      "track": 4,
+      "in": {
+        "preset": "slideRight",
+        "duration": 18,
+        "distance": 56
+      },
+      "out": {
+        "preset": "fade",
+        "duration": 16
+      }
+    },
+    {
+      "id": "chart",
+      "type": "chart",
+      "values": [
+        24,
+        48,
+        96,
+        180
+      ],
+      "labels": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "w": 860,
+      "h": 400,
+      "color": "#2EE6A8",
+      "y": 400,
+      "from": 260,
+      "durationInFrames": 240,
+      "track": 5,
+      "grow": {
+        "start": 6,
+        "durationFrames": 30,
+        "intervalFrames": 5
+      },
+      "in": {
+        "preset": "fade",
+        "duration": 18
+      },
+      "out": {
+        "preset": "fade",
+        "duration": 16
+      }
+    },
+    {
+      "id": "chart_note",
+      "type": "text",
+      "text": "ilustrasi pertumbuhan majemuk",
+      "fontSize": 26,
+      "fontWeight": 500,
+      "color": "#8892A6",
+      "y": 690,
+      "from": 300,
+      "durationInFrames": 200,
+      "track": 5,
+      "in": {
+        "preset": "fade",
+        "duration": 16,
+        "delay": 10
+      },
+      "out": {
+        "preset": "fade",
+        "duration": 16
+      }
+    },
+    {
+      "id": "closing",
+      "type": "text",
+      "text": "Mulai dari 10% saja.",
+      "fontSize": 68,
+      "fontWeight": 800,
+      "maxWidth": 860,
+      "y": -40,
+      "from": 488,
+      "durationInFrames": 52,
+      "track": 6,
+      "in": {
+        "preset": "maskUp",
+        "duration": 20,
+        "easing": "easeOutQuint"
+      }
+    },
+    {
+      "id": "end_fade",
+      "type": "shape",
+      "shape": "rect",
+      "w": 1080,
+      "h": 1920,
+      "fill": "#080A12",
+      "from": 524,
+      "durationInFrames": 16,
+      "track": 9,
+      "in": {
+        "preset": "fade",
+        "duration": 16
+      }
+    }
+  ]
+}

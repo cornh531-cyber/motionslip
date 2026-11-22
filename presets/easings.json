@@ -1,0 +1,36 @@
+{
+  "description": "21 easing: nama → kurva CSS, GSAP, Motion Canvas, catatan pemakaian",
+  "credit": "rajxzdev",
+  "license": "Apache-2.0",
+  "defaults": {
+    "enter": "easeOutQuint",
+    "exit": "easeInCubic",
+    "fade": "easeOutCubic",
+    "pop": "easeOutBack",
+    "inout": "easeInOutCubic",
+    "continuous": "linear"
+  },
+  "easings": {
+    "linear":             { "css": "linear", "gsap": "none", "use": "rotasi kontinu / progress / marquee" },
+    "easeInQuad":         { "css": "cubic-bezier(0.11,0,0.5,0)", "gsap": "power1.in", "use": "exit ringan" },
+    "easeOutQuad":        { "css": "cubic-bezier(0.5,1,0.89,1)", "gsap": "power1.out", "use": "micro-interaction" },
+    "easeInOutQuad":      { "css": "cubic-bezier(0.45,0,0.55,1)", "gsap": "power1.inOut", "use": "kamera lambat" },
+    "easeInCubic":        { "css": "cubic-bezier(0.32,0,0.67,0)", "gsap": "power2.in", "use": "default exit" },
+    "easeOutCubic":       { "css": "cubic-bezier(0.33,1,0.68,1)", "gsap": "power2.out", "use": "default fade" },
+    "easeInOutCubic":     { "css": "cubic-bezier(0.65,0,0.35,1)", "gsap": "power2.inOut", "use": "A→B→A" },
+    "easeInQuart":        { "css": "cubic-bezier(0.5,0,0.75,0)", "gsap": "power3.in", "use": "exit tegas" },
+    "easeOutQuart":       { "css": "cubic-bezier(0.25,1,0.5,1)", "gsap": "power3.out", "use": "masuk elegan" },
+    "easeInOutQuart":     { "css": "cubic-bezier(0.76,0,0.24,1)", "gsap": "power3.inOut", "use": "transisi besar" },
+    "easeOutQuint":       { "css": "cubic-bezier(0.22,1,0.36,1)", "gsap": "power4.out", "use": "DEFAULT masuk (paling aman)" },
+    "easeInOutQuint":     { "css": "cubic-bezier(0.83,0,0.17,1)", "gsap": "power4.inOut", "use": "hero transition" },
+    "easeOutExpo":        { "css": "cubic-bezier(0.16,1,0.3,1)", "gsap": "expo.out", "use": "counter, angka" },
+    "easeInOutExpo":      { "css": "cubic-bezier(0.86,0,0.07,1)", "gsap": "expo.inOut", "use": "reveal dramatis" },
+    "easeOutCirc":        { "css": "cubic-bezier(0,0.55,0.45,1)", "gsap": "circ.out", "use": "snap halus" },
+    "easeOutBack":        { "css": "cubic-bezier(0.34,1.56,0.64,1)", "gsap": "back.out(1.7)", "use": "pop / badge / CTA" },
+    "easeInOutBack":      { "css": "cubic-bezier(0.68,-0.6,0.32,1.6)", "gsap": "back.inOut(1.7)", "use": "pop dua arah" },
+    "easeOutElastic":     { "css": "cubic-bezier(0.68,-0.55,0.27,1.55)", "gsap": "elastic.out(1,0.45)", "use": "playful, maks 1 elemen" },
+    "easeOutBounce":      { "css": "cubic-bezier(0.34,1.56,0.64,1)", "gsap": "bounce.out", "use": "objek jatuh" },
+    "springSoft":         { "css": "cubic-bezier(0.16,1,0.3,1)", "gsap": "power3.out", "use": "spring zeta≈0.85" },
+    "springSnappy":       { "css": "cubic-bezier(0.34,1.4,0.64,1)", "gsap": "back.out(1.35)", "use": "spring overshoot 2-4%" }
+  }
+}

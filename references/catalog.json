@@ -1,0 +1,1687 @@
+{
+  "version": "1.0.0",
+  "credit": "rajxzdev",
+  "total": 60,
+  "items": [
+    {
+      "id": "ads-01",
+      "category": "ads",
+      "index": 1,
+      "title": "Ads reference 01 — @alianimator6",
+      "creator": "@alianimator6",
+      "short_url": "https://vt.tiktok.com/ZSsRJP92D/",
+      "url": "https://www.tiktok.com/@alianimator6/video/7699900793071127828",
+      "video_id": "7699900793071127828",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa detik sebelum hook selesai? (target: <= 1.5s)",
+          "Pada frame ke berapa CTA mulai diam?",
+          "Berapa elemen yang bergerak bersamaan di beat 1?",
+          "Apakah ada end_fade / loop point?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "hook-stat-cta",
+        "label": "Angka besar → benefit → CTA (lihat taxonomy-ads.md Resep A)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "ads-02",
+      "category": "ads",
+      "index": 2,
+      "title": "Ads reference 02 — @clean.creator",
+      "creator": "@clean.creator",
+      "short_url": "https://vt.tiktok.com/ZSsRJ5CkF/",
+      "url": "https://www.tiktok.com/@clean.creator/video/7684823088906636562",
+      "video_id": "7684823088906636562",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa detik sebelum hook selesai? (target: <= 1.5s)",
+          "Pada frame ke berapa CTA mulai diam?",
+          "Berapa elemen yang bergerak bersamaan di beat 1?",
+          "Apakah ada end_fade / loop point?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "problem-agitate-solution",
+        "label": "Masalah → perburuk → solusi (Resep B)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "ads-03",
+      "category": "ads",
+      "index": 3,
+      "title": "Ads reference 03 — @__mcvisuals__",
+      "creator": "@__mcvisuals__",
+      "short_url": "https://vt.tiktok.com/ZSsRJStLE/",
+      "url": "https://www.tiktok.com/@__mcvisuals__/video/7696934035846794529",
+      "video_id": "7696934035846794529",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa detik sebelum hook selesai? (target: <= 1.5s)",
+          "Pada frame ke berapa CTA mulai diam?",
+          "Berapa elemen yang bergerak bersamaan di beat 1?",
+          "Apakah ada end_fade / loop point?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "price-drop",
+        "label": "Harga coret → harga baru → badge diskon (Resep C)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "ads-04",
+      "category": "ads",
+      "index": 4,
+      "title": "Ads reference 04 — @davianmotion",
+      "creator": "@davianmotion",
+      "short_url": "https://vt.tiktok.com/ZSsRJY2XD/",
+      "url": "https://www.tiktok.com/@davianmotion/video/7665676602444909831",
+      "video_id": "7665676602444909831",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa detik sebelum hook selesai? (target: <= 1.5s)",
+          "Pada frame ke berapa CTA mulai diam?",
+          "Berapa elemen yang bergerak bersamaan di beat 1?",
+          "Apakah ada end_fade / loop point?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "kinetic-claim",
+        "label": "Tipografi kinetik tanpa footage (Resep D)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "ads-05",
+      "category": "ads",
+      "index": 5,
+      "title": "Ads reference 05 — @karlozyx",
+      "creator": "@karlozyx",
+      "short_url": "https://vt.tiktok.com/ZSsRJah1w/",
+      "url": "https://www.tiktok.com/@karlozyx/video/7630538726120148246",
+      "video_id": "7630538726120148246",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa detik sebelum hook selesai? (target: <= 1.5s)",
+          "Pada frame ke berapa CTA mulai diam?",
+          "Berapa elemen yang bergerak bersamaan di beat 1?",
+          "Apakah ada end_fade / loop point?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "before-after",
+        "label": "Split panel sebelum/sesudah (Resep E)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "ads-06",
+      "category": "ads",
+      "index": 6,
+      "title": "Ads reference 06 — @neildegracce",
+      "creator": "@neildegracce",
+      "short_url": "https://vt.tiktok.com/ZSsRJM7LQ/",
+      "url": "https://www.tiktok.com/@neildegracce/video/7698360003547139350",
+      "video_id": "7698360003547139350",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa detik sebelum hook selesai? (target: <= 1.5s)",
+          "Pada frame ke berapa CTA mulai diam?",
+          "Berapa elemen yang bergerak bersamaan di beat 1?",
+          "Apakah ada end_fade / loop point?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "hook-stat-cta",
+        "label": "Angka besar → benefit → CTA (lihat taxonomy-ads.md Resep A)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "ads-07",
+      "category": "ads",
+      "index": 7,
+      "title": "Ads reference 07 — @basscreative.id",
+      "creator": "@basscreative.id",
+      "short_url": "https://vt.tiktok.com/ZSsRJfoBq/",
+      "url": "https://www.tiktok.com/@basscreative.id/video/7697935649009077525",
+      "video_id": "7697935649009077525",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa detik sebelum hook selesai? (target: <= 1.5s)",
+          "Pada frame ke berapa CTA mulai diam?",
+          "Berapa elemen yang bergerak bersamaan di beat 1?",
+          "Apakah ada end_fade / loop point?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "problem-agitate-solution",
+        "label": "Masalah → perburuk → solusi (Resep B)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "ads-08",
+      "category": "ads",
+      "index": 8,
+      "title": "Ads reference 08 — @beingmayy",
+      "creator": "@beingmayy",
+      "short_url": "https://vt.tiktok.com/ZSsRJAN9E/",
+      "url": "https://www.tiktok.com/@beingmayy/video/7661728180885097749",
+      "video_id": "7661728180885097749",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa detik sebelum hook selesai? (target: <= 1.5s)",
+          "Pada frame ke berapa CTA mulai diam?",
+          "Berapa elemen yang bergerak bersamaan di beat 1?",
+          "Apakah ada end_fade / loop point?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "price-drop",
+        "label": "Harga coret → harga baru → badge diskon (Resep C)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "ads-09",
+      "category": "ads",
+      "index": 9,
+      "title": "Ads reference 09 — @zian.motion",
+      "creator": "@zian.motion",
+      "short_url": "https://vt.tiktok.com/ZSsRJFqne/",
+      "url": "https://www.tiktok.com/@zian.motion/video/7699722252605984018",
+      "video_id": "7699722252605984018",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa detik sebelum hook selesai? (target: <= 1.5s)",
+          "Pada frame ke berapa CTA mulai diam?",
+          "Berapa elemen yang bergerak bersamaan di beat 1?",
+          "Apakah ada end_fade / loop point?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "kinetic-claim",
+        "label": "Tipografi kinetik tanpa footage (Resep D)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "ads-10",
+      "category": "ads",
+      "index": 10,
+      "title": "Ads reference 10 — @kxnstandin",
+      "creator": "@kxnstandin",
+      "short_url": "https://vt.tiktok.com/ZSsRJBG84/",
+      "url": "https://www.tiktok.com/@kxnstandin/video/7542481109460897046",
+      "video_id": "7542481109460897046",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa detik sebelum hook selesai? (target: <= 1.5s)",
+          "Pada frame ke berapa CTA mulai diam?",
+          "Berapa elemen yang bergerak bersamaan di beat 1?",
+          "Apakah ada end_fade / loop point?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "before-after",
+        "label": "Split panel sebelum/sesudah (Resep E)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "ads-11",
+      "category": "ads",
+      "index": 11,
+      "title": "Ads reference 11 — @__mcvisuals__",
+      "creator": "@__mcvisuals__",
+      "short_url": "https://vt.tiktok.com/ZSsRJakfk/",
+      "url": "https://www.tiktok.com/@__mcvisuals__/video/7652485271119777046",
+      "video_id": "7652485271119777046",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa detik sebelum hook selesai? (target: <= 1.5s)",
+          "Pada frame ke berapa CTA mulai diam?",
+          "Berapa elemen yang bergerak bersamaan di beat 1?",
+          "Apakah ada end_fade / loop point?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "hook-stat-cta",
+        "label": "Angka besar → benefit → CTA (lihat taxonomy-ads.md Resep A)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "ads-12",
+      "category": "ads",
+      "index": 12,
+      "title": "Ads reference 12 — @corpius.ae",
+      "creator": "@corpius.ae",
+      "short_url": "https://vt.tiktok.com/ZSsRJMm6w/",
+      "url": "https://www.tiktok.com/@corpius.ae/video/7662770876265368850",
+      "video_id": "7662770876265368850",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa detik sebelum hook selesai? (target: <= 1.5s)",
+          "Pada frame ke berapa CTA mulai diam?",
+          "Berapa elemen yang bergerak bersamaan di beat 1?",
+          "Apakah ada end_fade / loop point?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "problem-agitate-solution",
+        "label": "Masalah → perburuk → solusi (Resep B)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "ads-13",
+      "category": "ads",
+      "index": 13,
+      "title": "Ads reference 13 — @ngorzc",
+      "creator": "@ngorzc",
+      "short_url": "https://vt.tiktok.com/ZSsRJSU29/",
+      "url": "https://www.tiktok.com/@ngorzc/video/7699978968404987154",
+      "video_id": "7699978968404987154",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa detik sebelum hook selesai? (target: <= 1.5s)",
+          "Pada frame ke berapa CTA mulai diam?",
+          "Berapa elemen yang bergerak bersamaan di beat 1?",
+          "Apakah ada end_fade / loop point?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "price-drop",
+        "label": "Harga coret → harga baru → badge diskon (Resep C)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "ads-14",
+      "category": "ads",
+      "index": 14,
+      "title": "Ads reference 14 — @matrixedit6",
+      "creator": "@matrixedit6",
+      "short_url": "https://vt.tiktok.com/ZSsRJAKGr/",
+      "url": "https://www.tiktok.com/@matrixedit6/video/7706328563087052052",
+      "video_id": "7706328563087052052",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa detik sebelum hook selesai? (target: <= 1.5s)",
+          "Pada frame ke berapa CTA mulai diam?",
+          "Berapa elemen yang bergerak bersamaan di beat 1?",
+          "Apakah ada end_fade / loop point?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "kinetic-claim",
+        "label": "Tipografi kinetik tanpa footage (Resep D)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "ads-15",
+      "category": "ads",
+      "index": 15,
+      "title": "Ads reference 15 — @raihanvisuals",
+      "creator": "@raihanvisuals",
+      "short_url": "https://vt.tiktok.com/ZSsRJ2fEW/",
+      "url": "https://www.tiktok.com/@raihanvisuals/video/7647130394659196178",
+      "video_id": "7647130394659196178",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa detik sebelum hook selesai? (target: <= 1.5s)",
+          "Pada frame ke berapa CTA mulai diam?",
+          "Berapa elemen yang bergerak bersamaan di beat 1?",
+          "Apakah ada end_fade / loop point?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "before-after",
+        "label": "Split panel sebelum/sesudah (Resep E)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "ads-16",
+      "category": "ads",
+      "index": 16,
+      "title": "Ads reference 16 — @limitless.media_",
+      "creator": "@limitless.media_",
+      "short_url": "https://vt.tiktok.com/ZSsRJdRTr/",
+      "url": "https://www.tiktok.com/@limitless.media_/video/7576301732519628053",
+      "video_id": "7576301732519628053",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa detik sebelum hook selesai? (target: <= 1.5s)",
+          "Pada frame ke berapa CTA mulai diam?",
+          "Berapa elemen yang bergerak bersamaan di beat 1?",
+          "Apakah ada end_fade / loop point?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "hook-stat-cta",
+        "label": "Angka besar → benefit → CTA (lihat taxonomy-ads.md Resep A)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "ads-17",
+      "category": "ads",
+      "index": 17,
+      "title": "Ads reference 17 — @kehidupan.kedua313",
+      "creator": "@kehidupan.kedua313",
+      "short_url": "https://vt.tiktok.com/ZSsRJYx5V/",
+      "url": "https://www.tiktok.com/@kehidupan.kedua313/video/7697934125155536149",
+      "video_id": "7697934125155536149",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa detik sebelum hook selesai? (target: <= 1.5s)",
+          "Pada frame ke berapa CTA mulai diam?",
+          "Berapa elemen yang bergerak bersamaan di beat 1?",
+          "Apakah ada end_fade / loop point?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "problem-agitate-solution",
+        "label": "Masalah → perburuk → solusi (Resep B)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "ads-18",
+      "category": "ads",
+      "index": 18,
+      "title": "Ads reference 18 — @olaf.motion",
+      "creator": "@olaf.motion",
+      "short_url": "https://vt.tiktok.com/ZSsRJR7sP/",
+      "url": "https://www.tiktok.com/@olaf.motion/video/7696134392204348705",
+      "video_id": "7696134392204348705",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa detik sebelum hook selesai? (target: <= 1.5s)",
+          "Pada frame ke berapa CTA mulai diam?",
+          "Berapa elemen yang bergerak bersamaan di beat 1?",
+          "Apakah ada end_fade / loop point?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "price-drop",
+        "label": "Harga coret → harga baru → badge diskon (Resep C)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "ads-19",
+      "category": "ads",
+      "index": 19,
+      "title": "Ads reference 19 — @rahmanfaiz.m",
+      "creator": "@rahmanfaiz.m",
+      "short_url": "https://vt.tiktok.com/ZSsRJyp4T/",
+      "url": "https://www.tiktok.com/@rahmanfaiz.m/video/7676306871531130119",
+      "video_id": "7676306871531130119",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa detik sebelum hook selesai? (target: <= 1.5s)",
+          "Pada frame ke berapa CTA mulai diam?",
+          "Berapa elemen yang bergerak bersamaan di beat 1?",
+          "Apakah ada end_fade / loop point?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "kinetic-claim",
+        "label": "Tipografi kinetik tanpa footage (Resep D)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "ads-20",
+      "category": "ads",
+      "index": 20,
+      "title": "Ads reference 20 — @davianmotion",
+      "creator": "@davianmotion",
+      "short_url": "https://vt.tiktok.com/ZSsRJje34/",
+      "url": "https://www.tiktok.com/@davianmotion/video/7667703732594904338",
+      "video_id": "7667703732594904338",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa detik sebelum hook selesai? (target: <= 1.5s)",
+          "Pada frame ke berapa CTA mulai diam?",
+          "Berapa elemen yang bergerak bersamaan di beat 1?",
+          "Apakah ada end_fade / loop point?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "before-after",
+        "label": "Split panel sebelum/sesudah (Resep E)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "education-01",
+      "category": "education",
+      "index": 1,
+      "title": "Education reference 01 — @gegaraid",
+      "creator": "@gegaraid",
+      "short_url": "https://vt.tiktok.com/ZSsRJ3LDW/",
+      "url": "https://www.tiktok.com/@gegaraid/video/7692266542611893512",
+      "video_id": "7692266542611893512",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa poin yang muncul? (target: <= 3)",
+          "Interval antar poin dalam frame?",
+          "Berapa lama teks diam sebelum poin berikutnya?",
+          "Chart: origin tumbuh dari mana?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "explainer-bullets",
+        "label": "Pertanyaan → 3 poin → chart → penutup (Resep A)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "education-02",
+      "category": "education",
+      "index": 2,
+      "title": "Education reference 02 — @patheticcstudio",
+      "creator": "@patheticcstudio",
+      "short_url": "https://vt.tiktok.com/ZSsRJsmh4/",
+      "url": "https://www.tiktok.com/@patheticcstudio/video/7586678080262032643",
+      "video_id": "7586678080262032643",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa poin yang muncul? (target: <= 3)",
+          "Interval antar poin dalam frame?",
+          "Berapa lama teks diam sebelum poin berikutnya?",
+          "Chart: origin tumbuh dari mana?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "timeline-history",
+        "label": "Garis waktu + titik tahun (Resep B)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "education-03",
+      "category": "education",
+      "index": 3,
+      "title": "Education reference 03 — @harinesia",
+      "creator": "@harinesia",
+      "short_url": "https://vt.tiktok.com/ZSsRJxjpp/",
+      "url": "https://www.tiktok.com/@harinesia/video/7704752138601188626",
+      "video_id": "7704752138601188626",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa poin yang muncul? (target: <= 3)",
+          "Interval antar poin dalam frame?",
+          "Berapa lama teks diam sebelum poin berikutnya?",
+          "Chart: origin tumbuh dari mana?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "data-reveal",
+        "label": "Chart tumbuh + angka naik (Resep C)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "education-04",
+      "category": "education",
+      "index": 4,
+      "title": "Education reference 04 — @thefinancialjourneyid",
+      "creator": "@thefinancialjourneyid",
+      "short_url": "https://vt.tiktok.com/ZSsRJqovX/",
+      "url": "https://www.tiktok.com/@thefinancialjourneyid/video/7700442291999083796",
+      "video_id": "7700442291999083796",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa poin yang muncul? (target: <= 3)",
+          "Interval antar poin dalam frame?",
+          "Berapa lama teks diam sebelum poin berikutnya?",
+          "Chart: origin tumbuh dari mana?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "comparison",
+        "label": "Dua kolom + divider (Resep D)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "education-05",
+      "category": "education",
+      "index": 5,
+      "title": "Education reference 05 — @talk.quote",
+      "creator": "@talk.quote",
+      "short_url": "https://vt.tiktok.com/ZSsRJQyqm/",
+      "url": "https://www.tiktok.com/@talk.quote/video/7683519961087642900",
+      "video_id": "7683519961087642900",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa poin yang muncul? (target: <= 3)",
+          "Interval antar poin dalam frame?",
+          "Berapa lama teks diam sebelum poin berikutnya?",
+          "Chart: origin tumbuh dari mana?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "step-by-step",
+        "label": "Nomor langkah + checkmark (Resep E)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "education-06",
+      "category": "education",
+      "index": 6,
+      "title": "Education reference 06 — @animator2d14",
+      "creator": "@animator2d14",
+      "short_url": "https://vt.tiktok.com/ZSsRJHHcP/",
+      "url": "https://www.tiktok.com/@animator2d14/video/7710405738379611410",
+      "video_id": "7710405738379611410",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa poin yang muncul? (target: <= 3)",
+          "Interval antar poin dalam frame?",
+          "Berapa lama teks diam sebelum poin berikutnya?",
+          "Chart: origin tumbuh dari mana?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "explainer-bullets",
+        "label": "Pertanyaan → 3 poin → chart → penutup (Resep A)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "education-07",
+      "category": "education",
+      "index": 7,
+      "title": "Education reference 07 — @past7forward",
+      "creator": "@past7forward",
+      "short_url": "https://vt.tiktok.com/ZSsRJpt5o/",
+      "url": "https://www.tiktok.com/@past7forward/video/7703165595268697351",
+      "video_id": "7703165595268697351",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa poin yang muncul? (target: <= 3)",
+          "Interval antar poin dalam frame?",
+          "Berapa lama teks diam sebelum poin berikutnya?",
+          "Chart: origin tumbuh dari mana?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "timeline-history",
+        "label": "Garis waktu + titik tahun (Resep B)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "education-08",
+      "category": "education",
+      "index": 8,
+      "title": "Education reference 08 — @kacaurus",
+      "creator": "@kacaurus",
+      "short_url": "https://vt.tiktok.com/ZSsRJqVVE/",
+      "url": "https://www.tiktok.com/@kacaurus/video/7704005097566588180",
+      "video_id": "7704005097566588180",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa poin yang muncul? (target: <= 3)",
+          "Interval antar poin dalam frame?",
+          "Berapa lama teks diam sebelum poin berikutnya?",
+          "Chart: origin tumbuh dari mana?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "data-reveal",
+        "label": "Chart tumbuh + angka naik (Resep C)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "education-09",
+      "category": "education",
+      "index": 9,
+      "title": "Education reference 09 — @uptoyou2207",
+      "creator": "@uptoyou2207",
+      "short_url": "https://vt.tiktok.com/ZSsRJuvQp/",
+      "url": "https://www.tiktok.com/@uptoyou2207/video/7710071732211567893",
+      "video_id": "7710071732211567893",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa poin yang muncul? (target: <= 3)",
+          "Interval antar poin dalam frame?",
+          "Berapa lama teks diam sebelum poin berikutnya?",
+          "Chart: origin tumbuh dari mana?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "comparison",
+        "label": "Dua kolom + divider (Resep D)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "education-10",
+      "category": "education",
+      "index": 10,
+      "title": "Education reference 10 — @oh_jadi_gituu",
+      "creator": "@oh_jadi_gituu",
+      "short_url": "https://vt.tiktok.com/ZSsRJCCKg/",
+      "url": "https://www.tiktok.com/@oh_jadi_gituu/video/7708669398592032018",
+      "video_id": "7708669398592032018",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa poin yang muncul? (target: <= 3)",
+          "Interval antar poin dalam frame?",
+          "Berapa lama teks diam sebelum poin berikutnya?",
+          "Chart: origin tumbuh dari mana?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "step-by-step",
+        "label": "Nomor langkah + checkmark (Resep E)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "education-11",
+      "category": "education",
+      "index": 11,
+      "title": "Education reference 11 — @sinyal.fakta",
+      "creator": "@sinyal.fakta",
+      "short_url": "https://vt.tiktok.com/ZSsRJQW3f/",
+      "url": "https://www.tiktok.com/@sinyal.fakta/video/7704515445927316756",
+      "video_id": "7704515445927316756",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa poin yang muncul? (target: <= 3)",
+          "Interval antar poin dalam frame?",
+          "Berapa lama teks diam sebelum poin berikutnya?",
+          "Chart: origin tumbuh dari mana?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "explainer-bullets",
+        "label": "Pertanyaan → 3 poin → chart → penutup (Resep A)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "education-12",
+      "category": "education",
+      "index": 12,
+      "title": "Education reference 12 — @kamutaugak30",
+      "creator": "@kamutaugak30",
+      "short_url": "https://vt.tiktok.com/ZSsRJ72Rt/",
+      "url": "https://www.tiktok.com/@kamutaugak30/video/7706117683070192904",
+      "video_id": "7706117683070192904",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa poin yang muncul? (target: <= 3)",
+          "Interval antar poin dalam frame?",
+          "Berapa lama teks diam sebelum poin berikutnya?",
+          "Chart: origin tumbuh dari mana?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "timeline-history",
+        "label": "Garis waktu + titik tahun (Resep B)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "education-13",
+      "category": "education",
+      "index": 13,
+      "title": "Education reference 13 — @kacaurus",
+      "creator": "@kacaurus",
+      "short_url": "https://vt.tiktok.com/ZSsRJ339B/",
+      "url": "https://www.tiktok.com/@kacaurus/video/7705198977251020052",
+      "video_id": "7705198977251020052",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa poin yang muncul? (target: <= 3)",
+          "Interval antar poin dalam frame?",
+          "Berapa lama teks diam sebelum poin berikutnya?",
+          "Chart: origin tumbuh dari mana?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "data-reveal",
+        "label": "Chart tumbuh + angka naik (Resep C)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "education-14",
+      "category": "education",
+      "index": 14,
+      "title": "Education reference 14 — @kacaurus",
+      "creator": "@kacaurus",
+      "short_url": "https://vt.tiktok.com/ZSsRJp9GN/",
+      "url": "https://www.tiktok.com/@kacaurus/video/7707007496283622677",
+      "video_id": "7707007496283622677",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa poin yang muncul? (target: <= 3)",
+          "Interval antar poin dalam frame?",
+          "Berapa lama teks diam sebelum poin berikutnya?",
+          "Chart: origin tumbuh dari mana?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "comparison",
+        "label": "Dua kolom + divider (Resep D)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "education-15",
+      "category": "education",
+      "index": 15,
+      "title": "Education reference 15 — @kim_jayu",
+      "creator": "@kim_jayu",
+      "short_url": "https://vt.tiktok.com/ZSsRJKTAQ/",
+      "url": "https://www.tiktok.com/@kim_jayu/video/7709031918209191188",
+      "video_id": "7709031918209191188",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa poin yang muncul? (target: <= 3)",
+          "Interval antar poin dalam frame?",
+          "Berapa lama teks diam sebelum poin berikutnya?",
+          "Chart: origin tumbuh dari mana?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "step-by-step",
+        "label": "Nomor langkah + checkmark (Resep E)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "education-16",
+      "category": "education",
+      "index": 16,
+      "title": "Education reference 16 — @e.dukasi_ai",
+      "creator": "@e.dukasi_ai",
+      "short_url": "https://vt.tiktok.com/ZSsRJ78Pc/",
+      "url": "https://www.tiktok.com/@e.dukasi_ai/video/7707849510982044946",
+      "video_id": "7707849510982044946",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa poin yang muncul? (target: <= 3)",
+          "Interval antar poin dalam frame?",
+          "Berapa lama teks diam sebelum poin berikutnya?",
+          "Chart: origin tumbuh dari mana?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "explainer-bullets",
+        "label": "Pertanyaan → 3 poin → chart → penutup (Resep A)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "education-17",
+      "category": "education",
+      "index": 17,
+      "title": "Education reference 17 — @talk.quote",
+      "creator": "@talk.quote",
+      "short_url": "https://vt.tiktok.com/ZSsRJ43DW/",
+      "url": "https://www.tiktok.com/@talk.quote/video/7667062808034446612",
+      "video_id": "7667062808034446612",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa poin yang muncul? (target: <= 3)",
+          "Interval antar poin dalam frame?",
+          "Berapa lama teks diam sebelum poin berikutnya?",
+          "Chart: origin tumbuh dari mana?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "timeline-history",
+        "label": "Garis waktu + titik tahun (Resep B)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "education-18",
+      "category": "education",
+      "index": 18,
+      "title": "Education reference 18 — @poltek.id",
+      "creator": "@poltek.id",
+      "short_url": "https://vt.tiktok.com/ZSsRJHtkY/",
+      "url": "https://www.tiktok.com/@poltek.id/video/7707496868485287186",
+      "video_id": "7707496868485287186",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa poin yang muncul? (target: <= 3)",
+          "Interval antar poin dalam frame?",
+          "Berapa lama teks diam sebelum poin berikutnya?",
+          "Chart: origin tumbuh dari mana?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "data-reveal",
+        "label": "Chart tumbuh + angka naik (Resep C)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "education-19",
+      "category": "education",
+      "index": 19,
+      "title": "Education reference 19 — @bimojabrik",
+      "creator": "@bimojabrik",
+      "short_url": "https://vt.tiktok.com/ZSsRJ3MdL/",
+      "url": "https://www.tiktok.com/@bimojabrik/video/7704287380999539976",
+      "video_id": "7704287380999539976",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa poin yang muncul? (target: <= 3)",
+          "Interval antar poin dalam frame?",
+          "Berapa lama teks diam sebelum poin berikutnya?",
+          "Chart: origin tumbuh dari mana?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "comparison",
+        "label": "Dua kolom + divider (Resep D)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "education-20",
+      "category": "education",
+      "index": 20,
+      "title": "Education reference 20 — @milytyy_",
+      "creator": "@milytyy_",
+      "short_url": "https://vt.tiktok.com/ZSsRJWKAw/",
+      "url": "https://www.tiktok.com/@milytyy_/video/7702745665264291079",
+      "video_id": "7702745665264291079",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Berapa poin yang muncul? (target: <= 3)",
+          "Interval antar poin dalam frame?",
+          "Berapa lama teks diam sebelum poin berikutnya?",
+          "Chart: origin tumbuh dari mana?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "step-by-step",
+        "label": "Nomor langkah + checkmark (Resep E)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "3d-01",
+      "category": "3d",
+      "index": 1,
+      "title": "3d reference 01 — @torii_motion",
+      "creator": "@torii_motion",
+      "short_url": "https://vt.tiktok.com/ZSsRJb1WF/",
+      "url": "https://www.tiktok.com/@torii_motion/video/7665668434352524564",
+      "video_id": "7665668434352524564",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Apakah 3D nyata (mesh) atau 2.5D (transform 2D)?",
+          "Berapa frame per putaran rotasi?",
+          "Berapa blur & opacity glow-nya?",
+          "Ada berapa elemen yang berputar?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "orbital-showcase",
+        "label": "Orb/ring berputar 2.5D (Resep A)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "3d-02",
+      "category": "3d",
+      "index": 2,
+      "title": "3d reference 02 — @emevfx",
+      "creator": "@emevfx",
+      "short_url": "https://vt.tiktok.com/ZSsRJp2Vf/",
+      "url": "https://www.tiktok.com/@emevfx/video/7682999360505924881",
+      "video_id": "7682999360505924881",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Apakah 3D nyata (mesh) atau 2.5D (transform 2D)?",
+          "Berapa frame per putaran rotasi?",
+          "Berapa blur & opacity glow-nya?",
+          "Ada berapa elemen yang berputar?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "product-reveal",
+        "label": "Footage produk + overlay (Resep B)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "3d-03",
+      "category": "3d",
+      "index": 3,
+      "title": "3d reference 03 — @rehmaneditor999",
+      "creator": "@rehmaneditor999",
+      "short_url": "https://vt.tiktok.com/ZSsRJCLsY/",
+      "url": "https://www.tiktok.com/@rehmaneditor999/video/7537065058342358279",
+      "video_id": "7537065058342358279",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Apakah 3D nyata (mesh) atau 2.5D (transform 2D)?",
+          "Berapa frame per putaran rotasi?",
+          "Berapa blur & opacity glow-nya?",
+          "Ada berapa elemen yang berputar?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "kinetic-3d-type",
+        "label": "Tipografi besar + reveal (Resep C)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "3d-04",
+      "category": "3d",
+      "index": 4,
+      "title": "3d reference 04 — @marqo.motion",
+      "creator": "@marqo.motion",
+      "short_url": "https://vt.tiktok.com/ZSsRJVCMM/",
+      "url": "https://www.tiktok.com/@marqo.motion/video/7680883359588896018",
+      "video_id": "7680883359588896018",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Apakah 3D nyata (mesh) atau 2.5D (transform 2D)?",
+          "Berapa frame per putaran rotasi?",
+          "Berapa blur & opacity glow-nya?",
+          "Ada berapa elemen yang berputar?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "loop-sting",
+        "label": "Logo sting yang bisa di-loop (Resep D)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "3d-05",
+      "category": "3d",
+      "index": 5,
+      "title": "3d reference 05 — @motion_bychaima",
+      "creator": "@motion_bychaima",
+      "short_url": "https://vt.tiktok.com/ZSsRJTPuN/",
+      "url": "https://www.tiktok.com/@motion_bychaima/video/7638656449677217046",
+      "video_id": "7638656449677217046",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Apakah 3D nyata (mesh) atau 2.5D (transform 2D)?",
+          "Berapa frame per putaran rotasi?",
+          "Berapa blur & opacity glow-nya?",
+          "Ada berapa elemen yang berputar?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "orbital-showcase",
+        "label": "Orb/ring berputar 2.5D (Resep A)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "3d-06",
+      "category": "3d",
+      "index": 6,
+      "title": "3d reference 06 — @relykmotion",
+      "creator": "@relykmotion",
+      "short_url": "https://vt.tiktok.com/ZSsRJtXf5/",
+      "url": "https://www.tiktok.com/@relykmotion/video/7689866849873415457",
+      "video_id": "7689866849873415457",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Apakah 3D nyata (mesh) atau 2.5D (transform 2D)?",
+          "Berapa frame per putaran rotasi?",
+          "Berapa blur & opacity glow-nya?",
+          "Ada berapa elemen yang berputar?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "product-reveal",
+        "label": "Footage produk + overlay (Resep B)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "3d-07",
+      "category": "3d",
+      "index": 7,
+      "title": "3d reference 07 — @kreatively.ke",
+      "creator": "@kreatively.ke",
+      "short_url": "https://vt.tiktok.com/ZSsRJ38bd/",
+      "url": "https://www.tiktok.com/@kreatively.ke/video/7670149996246846734",
+      "video_id": "7670149996246846734",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Apakah 3D nyata (mesh) atau 2.5D (transform 2D)?",
+          "Berapa frame per putaran rotasi?",
+          "Berapa blur & opacity glow-nya?",
+          "Ada berapa elemen yang berputar?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "kinetic-3d-type",
+        "label": "Tipografi besar + reveal (Resep C)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "3d-08",
+      "category": "3d",
+      "index": 8,
+      "title": "3d reference 08 — @kinoflows",
+      "creator": "@kinoflows",
+      "short_url": "https://vt.tiktok.com/ZSsRe6F4P/",
+      "url": "https://www.tiktok.com/@kinoflows/video/7694079282125098271",
+      "video_id": "7694079282125098271",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Apakah 3D nyata (mesh) atau 2.5D (transform 2D)?",
+          "Berapa frame per putaran rotasi?",
+          "Berapa blur & opacity glow-nya?",
+          "Ada berapa elemen yang berputar?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "loop-sting",
+        "label": "Logo sting yang bisa di-loop (Resep D)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "3d-09",
+      "category": "3d",
+      "index": 9,
+      "title": "3d reference 09 — @alianimator6",
+      "creator": "@alianimator6",
+      "short_url": "https://vt.tiktok.com/ZSsRJVQR3/",
+      "url": "https://www.tiktok.com/@alianimator6/video/7676159665448733973",
+      "video_id": "7676159665448733973",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Apakah 3D nyata (mesh) atau 2.5D (transform 2D)?",
+          "Berapa frame per putaran rotasi?",
+          "Berapa blur & opacity glow-nya?",
+          "Ada berapa elemen yang berputar?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "orbital-showcase",
+        "label": "Orb/ring berputar 2.5D (Resep A)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "3d-10",
+      "category": "3d",
+      "index": 10,
+      "title": "3d reference 10 — @ping_motiongraphics",
+      "creator": "@ping_motiongraphics",
+      "short_url": "https://vt.tiktok.com/ZSsReeRgb/",
+      "url": "https://www.tiktok.com/@ping_motiongraphics/video/7672730794317597972",
+      "video_id": "7672730794317597972",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Apakah 3D nyata (mesh) atau 2.5D (transform 2D)?",
+          "Berapa frame per putaran rotasi?",
+          "Berapa blur & opacity glow-nya?",
+          "Ada berapa elemen yang berputar?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "product-reveal",
+        "label": "Footage produk + overlay (Resep B)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "3d-11",
+      "category": "3d",
+      "index": 11,
+      "title": "3d reference 11 — @hatsu6961",
+      "creator": "@hatsu6961",
+      "short_url": "https://vt.tiktok.com/ZSsReFfHA/",
+      "url": "https://www.tiktok.com/@hatsu6961/video/7688430332231617813",
+      "video_id": "7688430332231617813",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Apakah 3D nyata (mesh) atau 2.5D (transform 2D)?",
+          "Berapa frame per putaran rotasi?",
+          "Berapa blur & opacity glow-nya?",
+          "Ada berapa elemen yang berputar?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "kinetic-3d-type",
+        "label": "Tipografi besar + reveal (Resep C)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "3d-12",
+      "category": "3d",
+      "index": 12,
+      "title": "3d reference 12 — @thednyx",
+      "creator": "@thednyx",
+      "short_url": "https://vt.tiktok.com/ZSsReUwFh/",
+      "url": "https://www.tiktok.com/@thednyx/video/7602093569955958036",
+      "video_id": "7602093569955958036",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Apakah 3D nyata (mesh) atau 2.5D (transform 2D)?",
+          "Berapa frame per putaran rotasi?",
+          "Berapa blur & opacity glow-nya?",
+          "Ada berapa elemen yang berputar?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "loop-sting",
+        "label": "Logo sting yang bisa di-loop (Resep D)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "3d-13",
+      "category": "3d",
+      "index": 13,
+      "title": "3d reference 13 — @alianimator6",
+      "creator": "@alianimator6",
+      "short_url": "https://vt.tiktok.com/ZSsRJorPn/",
+      "url": "https://www.tiktok.com/@alianimator6/video/7679878128910535956",
+      "video_id": "7679878128910535956",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Apakah 3D nyata (mesh) atau 2.5D (transform 2D)?",
+          "Berapa frame per putaran rotasi?",
+          "Berapa blur & opacity glow-nya?",
+          "Ada berapa elemen yang berputar?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "orbital-showcase",
+        "label": "Orb/ring berputar 2.5D (Resep A)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "3d-14",
+      "category": "3d",
+      "index": 14,
+      "title": "3d reference 14 — @justdesign.ph",
+      "creator": "@justdesign.ph",
+      "short_url": "https://vt.tiktok.com/ZSsRekLV5/",
+      "url": "https://www.tiktok.com/@justdesign.ph/video/7629515106627374357",
+      "video_id": "7629515106627374357",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Apakah 3D nyata (mesh) atau 2.5D (transform 2D)?",
+          "Berapa frame per putaran rotasi?",
+          "Berapa blur & opacity glow-nya?",
+          "Ada berapa elemen yang berputar?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "product-reveal",
+        "label": "Footage produk + overlay (Resep B)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "3d-15",
+      "category": "3d",
+      "index": 15,
+      "title": "3d reference 15 — @nucman.fx",
+      "creator": "@nucman.fx",
+      "short_url": "https://vt.tiktok.com/ZSsReBSY4/",
+      "url": "https://www.tiktok.com/@nucman.fx/video/7654249090796129556",
+      "video_id": "7654249090796129556",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Apakah 3D nyata (mesh) atau 2.5D (transform 2D)?",
+          "Berapa frame per putaran rotasi?",
+          "Berapa blur & opacity glow-nya?",
+          "Ada berapa elemen yang berputar?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "kinetic-3d-type",
+        "label": "Tipografi besar + reveal (Resep C)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "3d-16",
+      "category": "3d",
+      "index": 16,
+      "title": "3d reference 16 — @alianimator6",
+      "creator": "@alianimator6",
+      "short_url": "https://vt.tiktok.com/ZSsRekJYj/",
+      "url": "https://www.tiktok.com/@alianimator6/video/7682460830692134164",
+      "video_id": "7682460830692134164",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Apakah 3D nyata (mesh) atau 2.5D (transform 2D)?",
+          "Berapa frame per putaran rotasi?",
+          "Berapa blur & opacity glow-nya?",
+          "Ada berapa elemen yang berputar?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "loop-sting",
+        "label": "Logo sting yang bisa di-loop (Resep D)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "3d-17",
+      "category": "3d",
+      "index": 17,
+      "title": "3d reference 17 — @yuosnr",
+      "creator": "@yuosnr",
+      "short_url": "https://vt.tiktok.com/ZSsRerGs6/",
+      "url": "https://www.tiktok.com/@yuosnr/video/7563033586077666583",
+      "video_id": "7563033586077666583",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Apakah 3D nyata (mesh) atau 2.5D (transform 2D)?",
+          "Berapa frame per putaran rotasi?",
+          "Berapa blur & opacity glow-nya?",
+          "Ada berapa elemen yang berputar?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "orbital-showcase",
+        "label": "Orb/ring berputar 2.5D (Resep A)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "3d-18",
+      "category": "3d",
+      "index": 18,
+      "title": "3d reference 18 — @nucman.fx",
+      "creator": "@nucman.fx",
+      "short_url": "https://vt.tiktok.com/ZSsReUV2E/",
+      "url": "https://www.tiktok.com/@nucman.fx/video/7630088949414907143",
+      "video_id": "7630088949414907143",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Apakah 3D nyata (mesh) atau 2.5D (transform 2D)?",
+          "Berapa frame per putaran rotasi?",
+          "Berapa blur & opacity glow-nya?",
+          "Ada berapa elemen yang berputar?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "product-reveal",
+        "label": "Footage produk + overlay (Resep B)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "3d-19",
+      "category": "3d",
+      "index": 19,
+      "title": "3d reference 19 — @jojothecre8tor",
+      "creator": "@jojothecre8tor",
+      "short_url": "https://vt.tiktok.com/ZSsReShYe/",
+      "url": "https://www.tiktok.com/@jojothecre8tor/video/7647239338601893140",
+      "video_id": "7647239338601893140",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Apakah 3D nyata (mesh) atau 2.5D (transform 2D)?",
+          "Berapa frame per putaran rotasi?",
+          "Berapa blur & opacity glow-nya?",
+          "Ada berapa elemen yang berputar?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "kinetic-3d-type",
+        "label": "Tipografi besar + reveal (Resep C)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    },
+    {
+      "id": "3d-20",
+      "category": "3d",
+      "index": 20,
+      "title": "3d reference 20 — @earnedits.motion",
+      "creator": "@earnedits.motion",
+      "short_url": "https://vt.tiktok.com/ZSsRedYp7/",
+      "url": "https://www.tiktok.com/@earnedits.motion/video/7682908603438746901",
+      "video_id": "7682908603438746901",
+      "platform": "tiktok",
+      "duration_s": null,
+      "observed": {
+        "status": "not-ingested",
+        "study_questions": [
+          "Apakah 3D nyata (mesh) atau 2.5D (transform 2D)?",
+          "Berapa frame per putaran rotasi?",
+          "Berapa blur & opacity glow-nya?",
+          "Ada berapa elemen yang berputar?"
+        ],
+        "note": "TikTok menolak fetch otomatis (403). Resolve link sudah berhasil; konten belum ditonton."
+      },
+      "suggested_recipe": {
+        "id": "loop-sting",
+        "label": "Logo sting yang bisa di-loop (Resep D)",
+        "confidence": "inferred",
+        "note": "Diturunkan dari pola kategori, bukan hasil menonton. Verifikasi manual."
+      }
+    }
+  ]
+}
